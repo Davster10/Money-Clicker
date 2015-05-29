@@ -1,0 +1,65 @@
+Let's make a game!
+David L's Cookie Clicker clone called: Money Clicker
+by David Lunt
+version 1.0
+created on 29/05/2015
+last updated on 29/05/2015
+ 
+Settings :
+prices increase by 110%
+selling gives back 35%
+resources are visible by default
+clickables are visible by default
+buildings are visible by default
+upgrades are visible by default
+achievements are visible by default
+boxes : r, c, b, u, a, t, s
+resources go in the r box
+clickables go in the c box
+buildings go in the b box
+upgrades go in the u box
+achievements go in the a box
+title goes in the t box
+save goes in the s box
+hide log
+background : #000000
+text color : #0092ff
+custom stylesheet : http://pastebin.com/6gWMAUGy
+fonts : Open Sans, Roboto, Lora
+ 
+Resources :
+*Dollars
+starts at 0
+show 1 digit
+displayed as You have %a Dollar%s
+on finding say COOL
+ 
+ 
+Clickables :
+*Big_Dollar
+says +1
+on success says success
+on failure says failure
+gains 3% per Dollars
+converts Dollars to Dollars
+ 
+ 
+Buildings :
+*Auto Click
+starts at 0
+price increases by 110%
+gains 5% per Dollars
+represents 10 Dollars
+occupies 5 Dollars
+ 
+ 
+Upgrades :
+*Super Click
+multiplies efficiency of Auto Click  by 200%
+multiplies efficiency of Big_Dollar by 150% per Auto Click
+multiplies income of Dollars by 200%
+converts Dollars to Dollars
+ 
+ 
+Achievements :
+*First Cookie
