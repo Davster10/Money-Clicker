@@ -33,6 +33,7 @@ starts at 0
 show 1 digit
 displayed as You have %a Dollar%s
 on finding say COOL
+visible
  
  
 Clickables :
@@ -42,6 +43,7 @@ on success says success
 on failure says failure
 gains 3% per Dollars
 converts Dollars to Dollars
+visible
  
  
 Buildings :
@@ -51,6 +53,7 @@ price increases by 110%
 gains 5% per Dollars
 represents 10 Dollars
 occupies 5 Dollars
+visible
  
  
 Upgrades :
@@ -59,7 +62,9 @@ multiplies efficiency of Auto Click  by 200%
 multiplies efficiency of Big_Dollar by 150% per Auto Click
 multiplies income of Dollars by 200%
 converts Dollars to Dollars
+visible
  
  
 Achievements :
 *First Cookie
+visible
